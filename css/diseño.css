@@ -1,0 +1,64 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.contenido {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el título principal */
+h1 {
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+/* Estilo para el párrafo */
+p {
+    font-size: 1rem;
+    color: #5d3131;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo para el párrafo con clase "hashtag" */
+p.hashtag {
+    font-style: italic;
+    color: #009688;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #f7e700;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0.5rem;
+}
+
+button:hover {
+    background-color: #042968;
+}
+
+/* Estilo para el área de contenido que se actualizará con JS */
+#contenido {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #f1f1f1;
+    border-radius: 5px;
+    min-height: 100px; /* Ajusta esto según el contenido esperado */
+}
+
